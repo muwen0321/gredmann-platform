@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { PasswordPage } from './components/PasswordPage';
 import { Sidebar } from './components/Sidebar';
 import { MainContent } from './components/MainContent';
