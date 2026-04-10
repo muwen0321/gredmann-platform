@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Product } from '../types';
 import { products } from '../data/products';
 
 interface SidebarProps {

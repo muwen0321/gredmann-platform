@@ -1,14 +1,12 @@
 import React from 'react';
-import { Product } from '../types';
 import { ProductReport } from './ProductReport';
 import { products } from '../data/products';
 
 interface MainContentProps {
   selectedProductId: string;
-  onProductSelect: (id: string) => void;
 }
 
-export const MainContent: React.FC<MainContentProps> = ({ selectedProductId, onProductSelect }) => {
+export const MainContent: React.FC<MainContentProps> = ({ selectedProductId }) => {
   const currentProduct = products.find(p => p.id === selectedProductId);
 
   if (!currentProduct) {
