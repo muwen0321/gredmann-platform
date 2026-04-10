@@ -40,7 +40,7 @@ function App() {
     <>
       <Sidebar selectedProductId={selectedProductId} onProductSelect={handleProductSelect} />
       <MobileMenu selectedProductId={selectedProductId} onProductSelect={handleProductSelect} />
-      <MainContent selectedProductId={selectedProductId} onProductSelect={handleProductSelect} />
+      <MainContent selectedProductId={selectedProductId} />
     </>
   );
 }
