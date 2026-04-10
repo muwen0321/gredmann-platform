@@ -1593,7 +1593,6 @@ export const products: Product[] = [
       {
         rank: 3,
         name: '聯發科',
-        country: '台灣',
         productType: 'EDA 設計、測試',
         estimatedUsage: '50 噸/年',
         difficulty: 2,
